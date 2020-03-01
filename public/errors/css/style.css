@@ -1,0 +1,18 @@
+
+body{
+	margin: 0;
+	background: url(../images/2.jpg) 0 0 no-repeat;
+	background-size: cover;
+	background-position: 50% 11%;
+	background-attachment: fixed;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-size: 70px;
+}
+sup {
+	color: darkorange;
+}
+
