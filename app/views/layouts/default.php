@@ -7,5 +7,12 @@
 <body>
 <h1>Подложка DEFAULT</h1>
 <?= $content ?>
+<?php
+$logs = \R::getDatabaseAdapter()
+    ->getDatabase()
+    ->getLogger();
+
+debug( $logs->grep( 'SELECT' ) );
+?>
 </body>
 </html>

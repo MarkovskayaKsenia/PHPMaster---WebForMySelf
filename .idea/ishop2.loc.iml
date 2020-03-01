@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" packagePrefix="app\" />
       <sourceFolder url="file://$MODULE_DIR$/vendor/ishop/core" isTestSource="false" packagePrefix="ishop\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/gabordemooij/redbean" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ishop/core" />
     </content>
     <orderEntry type="inheritedJdk" />
