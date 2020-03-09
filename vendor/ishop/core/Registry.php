@@ -14,7 +14,7 @@ class Registry
         self::$properties[$name] = $value;
     }
 
-    public function getProperty(string $name): ?string
+    public function getProperty(string $name)
     {
         if (isset(self::$properties[$name])) {
             return self::$properties[$name];

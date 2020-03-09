@@ -1,0 +1,33 @@
+
+[2020-03-09 10:44:13] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'base DESC' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-03-09 10:48:26] Текст ошибки: Return value of ishop\Registry::getProperty() must be of the type string or null, array returned | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Registry.php | Строка: 20 
+==============
+[2020-03-09 13:01:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-09 13:01:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-09 13:02:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-09 13:02:33] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-09 13:03:12] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-09 16:14:05] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.categories' doesn't exist | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-03-09 16:44:56] Текст ошибки: syntax error, unexpected '}' | Файл: C:\OSPanel\domains\ishop2.loc\app\widgets\menu\Menu.php | Строка: 78 
+==============
+[2020-03-09 16:45:22] Текст ошибки: syntax error, unexpected '}' | Файл: C:\OSPanel\domains\ishop2.loc\app\widgets\menu\Menu.php | Строка: 79 
+==============
+[2020-03-09 17:33:39] Текст ошибки: syntax error, unexpected ';', expecting ']' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php | Строка: 72 
+==============
+[2020-03-09 17:34:05] Текст ошибки: syntax error, unexpected ';', expecting ']' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php | Строка: 72 
+==============
+[2020-03-09 17:34:06] Текст ошибки: syntax error, unexpected ';', expecting ']' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\layouts\watches.php | Строка: 72 
+==============
+[2020-03-09 17:56:54] Текст ошибки: Контроллер не найден: app\controllers\CategoryController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-03-09 18:12:31] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-09 18:15:14] Текст ошибки: Контроллер не найден: app\controllers\CategoryController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
