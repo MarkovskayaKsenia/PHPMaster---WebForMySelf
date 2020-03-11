@@ -48,7 +48,7 @@
                 <?php foreach($hits as $hit): ?>
                 <div class="col-md-3 product-left">
                     <div class="product-main simpleCart_shelfItem">
-                        <a href="product<?= $hit->alias; ?>" class="mask"><img class="img-responsive zoom-img" src="images/<?= $hit->img; ?>" alt="" /></a>
+                        <a href="product/<?= $hit->alias; ?>" class="mask"><img class="img-responsive zoom-img" src="images/<?= $hit->img; ?>" alt="" /></a>
                         <div class="product-bottom">
                             <h3><a href="product<?= $hit->alias; ?>"><?= $hit->title; ?></a></h3>
                             <p>Explore Now</p>
