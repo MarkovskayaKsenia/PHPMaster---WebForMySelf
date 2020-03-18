@@ -3076,3 +3076,20 @@ ul.tag-men {
 .quantity {
 	margin-top: 10px;
 }
+
+.related-products {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 20px 0 20px;
+
+}
+
+.related-product-item {
+	width: 23%;
+	align-self: stretch;
+	margin-right: 20px;
+}
+
+.related-product-item .product-main {
+	height: 100%;
+}

@@ -155,6 +155,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 </div>
 <!--footer-end-->
+<?php $currency = \ishop\App::$app->getProperty('currency'); ?>
+<script>
+    var path = '<?= PATH; ?>';
+    var course = <?= $currency['value']; ?>;
+    var symbolLeft = '<?= $currency['symbol_left']; ?>';
+    var symbolRight = '<?= $currency['symbol_right']; ?>';
+</script>
 <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
 <script src="/js/jquery-1.11.0.min.js"></script>
 <script src="/js/simpleCart.min.js"> </script>
@@ -215,5 +222,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     });
 </script>
 <script src="/js/main.js"></script>
+
+<?php
+$logs = \R::getDatabaseAdapter()
+    ->getDatabase()
+    ->getLogger();
+
+debug( $logs->grep( 'SELECT' ) );
+?>
 </body>
 </html>
