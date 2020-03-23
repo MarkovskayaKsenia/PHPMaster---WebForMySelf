@@ -471,3 +471,15 @@
 ==============
 [2020-03-18 18:26:26] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Cart/add.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
 ==============
+[2020-03-21 20:25:01] Текст ошибки: Argument 2 passed to ishop\base\Controller::setMeta() must be of the type string, null given, called in C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php on line 48 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\Controller.php | Строка: 38 
+==============
+[2020-03-21 20:27:31] Текст ошибки: Argument 2 passed to ishop\base\Controller::setMeta() must be of the type string, null given, called in C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php on line 48 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\Controller.php | Строка: 38 
+==============
+[2020-03-22 16:33:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-22 16:33:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-22 16:33:22] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-23 16:26:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============

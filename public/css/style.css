@@ -3093,3 +3093,11 @@ ul.tag-men {
 .related-product-item .product-main {
 	height: 100%;
 }
+
+#cart img{
+	max-height: 50px;
+}
+
+.del-item {
+	cursor: pointer;
+}

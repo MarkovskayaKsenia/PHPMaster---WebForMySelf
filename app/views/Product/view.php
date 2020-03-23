@@ -65,6 +65,7 @@
                                 </h4>
                             <?php endif; ?>
                             <p><?= $product->content; ?></p>
+                            <?php if($modifications): ?>
                             <div class="available">
                                 <ul>
                                     <li>Color
@@ -80,6 +81,7 @@
                                     <div class="clearfix"></div>
                                 </ul>
                             </div>
+                            <?php endif; ?>
                             <ul class="tag-men">
                                 <li><span>Category</span>
                                     <span>: <a href="category/<?= $categories[$product->category_id]['alias']; ?>"><?= $categories[$product->category_id]['title']; ?></a></span>
