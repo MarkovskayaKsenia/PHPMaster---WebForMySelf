@@ -183,7 +183,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Продолжить покупки</button>
                 <a href="/cart/view" type="button" class="btn btn-primary" onclick="">Оформить заказ</a>
-                <button type="button" class="btn btn-danger">Очистить корзину</button>
+                <button type="button" class="btn btn-danger btn-clear">Очистить корзину</button>
             </div>
         </div>
     </div>

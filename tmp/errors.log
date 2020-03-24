@@ -483,3 +483,17 @@
 ==============
 [2020-03-23 16:26:00] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
 ==============
+[2020-03-24 11:21:11] Текст ошибки: Метод clearAction в контроллере app\controllers\CartController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-03-24 11:52:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-24 11:53:47] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-24 12:01:26] Текст ошибки: Unsupported operand types | Файл: C:\OSPanel\domains\ishop2.loc\app\models\Cart.php | Строка: 55 
+==============
+[2020-03-24 12:01:57] Текст ошибки: Unsupported operand types | Файл: C:\OSPanel\domains\ishop2.loc\app\models\Cart.php | Строка: 55 
+==============
+[2020-03-24 12:02:50] Текст ошибки: Unsupported operand types | Файл: C:\OSPanel\domains\ishop2.loc\app\models\Cart.php | Строка: 55 
+==============
+[2020-03-24 12:02:59] Текст ошибки: Unsupported operand types | Файл: C:\OSPanel\domains\ishop2.loc\app\models\Cart.php | Строка: 55 
+==============

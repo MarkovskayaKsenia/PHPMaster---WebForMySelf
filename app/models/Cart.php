@@ -8,7 +8,7 @@ use ishop\App;
 
 class Cart extends AppModel
 {
-    public function addToCart($product, $qty = 1, $modification = null )
+    public function addToCart($product, $qty = 1, $modification = null)
     {
         if (!isset($_SESSION['cart.currency'])) {
             $_SESSION['cart.currency'] = App::$app->getProperty('currency');
@@ -47,5 +47,20 @@ class Cart extends AppModel
         $_SESSION['cart.qty'] -= $qtyMinus;
         $_SESSION['cart.sum'] -= $sumMinus;
         unset($_SESSION['cart'][$id]);
+    }
+
+    public static function recalc($currency)
+    {
+        if (isset($_SESSION['cart.currency'])) {
+            foreach ($_SESSION['cart'] as $key => $item) {
+                $_SESSION['cart'][$key]['price'] = $_SESSION['cart'][$key]['price'] / $_SESSION['cart.currency']['value'] * $currency->value;
+            }
+            $_SESSION['cart.sum'] = $_SESSION['cart.sum'] / $_SESSION['cart.currency']['value'] * $currency->value;
+
+            foreach ($currency as $key => $value) {
+                $_SESSION['cart.currency'][$key] = $value;
+            }
+
+        }
     }
 }

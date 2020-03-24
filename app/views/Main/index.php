@@ -48,9 +48,9 @@
                 <?php foreach($hits as $hit): ?>
                 <div class="col-md-3 product-left">
                     <div class="product-main simpleCart_shelfItem">
-                        <a href="product/<?= $hit->alias; ?>" class="mask"><img class="img-responsive zoom-img" src="/images/<?= $hit->img; ?>" alt="" /></a>
+                        <a href="/product/<?= $hit->alias; ?>" class="mask"><img class="img-responsive zoom-img" src="/images/<?= $hit->img; ?>" alt="" /></a>
                         <div class="product-bottom">
-                            <h3><a href="product<?= $hit->alias; ?>"><?= $hit->title; ?></a></h3>
+                            <h3><a href="/product/<?= $hit->alias; ?>"><?= $hit->title; ?></a></h3>
                             <p>Explore Now</p>
                             <h4><a data-id="<?= $hit->id; ?>" class="add-to-cart-link" href="/cart/add?id=<?= $hit->id; ?>"><i></i></a>
                                 <span class=" item_price"><?= $curr['symbol_left']; ?><?= $hit->price * $curr['value']; ?><?= $curr['symbol_right']; ?></span>

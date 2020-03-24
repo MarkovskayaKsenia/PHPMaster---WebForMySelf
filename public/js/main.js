@@ -77,3 +77,16 @@ function getCart() {
         }
     })
 }
+
+$('#cart .modal-footer').on('click', '.btn-clear', function () {
+    $.ajax({
+        url: '/cart/clear/',
+        type: 'GET',
+        success: function(res){
+            showCart(res);
+        },
+        error: function(){
+            alert('Ошибка, попробуйте позже!');
+        }
+    });
+});
