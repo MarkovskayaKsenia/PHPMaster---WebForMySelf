@@ -17,3 +17,7 @@ function redirect($url = false)
     header("Location: $redirect");
     exit();
 }
+
+function checkUserData($str) {
+    return htmlspecialchars($str, ENT_QUOTES);
+}

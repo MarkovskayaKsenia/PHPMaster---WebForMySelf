@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0efa72a1-5207-4ea0-bc8d-4b3140842b6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/SearchController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/Search/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/typeahead.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CartController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/CurrencyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CurrencyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Cart.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/watches.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/watches.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +93,8 @@
       <workItem from="1579793306852" duration="9072000" />
       <workItem from="1582534561501" duration="27305000" />
       <workItem from="1583043133904" duration="14255000" />
-      <workItem from="1583671436665" duration="88452000" />
+      <workItem from="1583671436665" duration="89799000" />
+      <workItem from="1585061279573" duration="10531000" />
     </task>
     <servers />
   </component>

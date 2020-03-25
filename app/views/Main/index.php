@@ -40,7 +40,7 @@
 <!--about-end-->
 <!--product-starts-->
 <?php if($hits): ?>
-<?php $curr = \ishop\App::$app->getProperty('currency'); ?>
+<?php $currency = \ishop\App::$app->getProperty('currency'); ?>
 <div class="product">
     <div class="container">
         <div class="product-top">
@@ -53,9 +53,19 @@
                             <h3><a href="/product/<?= $hit->alias; ?>"><?= $hit->title; ?></a></h3>
                             <p>Explore Now</p>
                             <h4><a data-id="<?= $hit->id; ?>" class="add-to-cart-link" href="/cart/add?id=<?= $hit->id; ?>"><i></i></a>
-                                <span class=" item_price"><?= $curr['symbol_left']; ?><?= $hit->price * $curr['value']; ?><?= $curr['symbol_right']; ?></span>
+                                <span class=" item_price">
+                                    <?= $currency['symbol_left']; ?>
+                                    <?= $hit->price * $currency['value']; ?>
+                                    <?= $currency['symbol_right']; ?>
+                                </span>
                                 <?php if($hit->old_price): ?>
-                                <small><del><?= $curr['symbol_left']; ?><?= $hit->old_price * $curr['value']; ?><?= $curr['symbol_right']; ?></del></small>
+                                <small>
+                                    <del>
+                                        <?= $currency['symbol_left']; ?>
+                                        <?= $hit->old_price * $currency['value']; ?>
+                                        <?= $currency['symbol_right']; ?>
+                                    </del>
+                                </small>
                                 <?php endif; ?>
                             </h4>
                         </div>
