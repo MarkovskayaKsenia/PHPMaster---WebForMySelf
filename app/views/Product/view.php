@@ -176,9 +176,9 @@
                 <?php if (!empty($related)): ?>
                     <div class="latestproducts">
                         <h3>С этим товаром также покупают</h3>
-                        <div class="related-products">
+                        <div class="related-products products">
                             <?php foreach ($related as $item): ?>
-                                <div class="related-product-item">
+                                <div class="related-product-item product-item">
                                     <div class="product-main simpleCart_shelfItem">
                                         <a href="/product/<?= $item['alias']; ?>" class="mask"><img
                                                     class="img-responsive zoom-img" src="/images/<?= $item['img']; ?>"
@@ -222,9 +222,9 @@
                 <?php if (!empty($recentlyViewed)): ?>
                     <div class="latestproducts">
                         <h3>Недавно просмотренные</h3>
-                        <div class="related-products">
+                        <div class="related-products products">
                             <?php foreach ($recentlyViewed as $item): ?>
-                                <div class="related-product-item">
+                                <div class="related-product-item product-item">
                                     <div class="product-main simpleCart_shelfItem">
                                         <a href="/product/<?= $item['alias']; ?>" class="mask"><img
                                                     class="img-responsive zoom-img" src="/images/<?= $item['img']; ?>"

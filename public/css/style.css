@@ -3069,29 +3069,28 @@ ul.tag-men {
 
 /*new styles*/
 
-.product-one > .product-left {
-	margin-bottom: 20px;
-}
-
 .quantity {
 	margin-top: 10px;
 }
 
-.related-products {
+.products {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 20px 20px 0 20px;
+	margin: 0 -10px 0 -10px;
 
 }
 
-.related-product-item {
-	width: 23%;
-	align-self: stretch;
-	margin-right: 20px;
+.product-item {
+	width: 270px;
+	margin: 0px 10px 20px 10px;
 }
 
-.related-product-item .product-main {
+
+.product-item .product-main {
 	height: 100%;
+}
+.col-md-9 {
+	padding: 0;
 }
 
 /*cart*/

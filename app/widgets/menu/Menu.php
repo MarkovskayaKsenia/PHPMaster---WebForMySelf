@@ -23,7 +23,7 @@ class Menu
 
     public function __construct($options)
     {
-        $this->tpl = __DIR__ . '/menu/tpl/menu.php';
+        $this->tpl = __DIR__ . '/menu_tpl/menu.php';
         $this->getOptions($options);
         $this->run();
     }

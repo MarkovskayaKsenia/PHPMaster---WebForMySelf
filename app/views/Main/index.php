@@ -24,7 +24,7 @@
             <?php foreach ($brands as $brand): ?>
             <div class="col-md-4 about-left">
                 <figure class="effect-bubba">
-                    <img class="img-responsive" src="images/<?= $brand->img; ?>" alt=""/>
+                    <img class="img-responsive" src="/images/<?= $brand->img; ?>" alt=""/>
                     <figcaption>
                         <h2><?= $brand->title; ?></h2>
                         <p><?= $brand->description; ?></p>
@@ -44,9 +44,9 @@
 <div class="product">
     <div class="container">
         <div class="product-top">
-            <div class="product-one">
+            <div class="product-one products">
                 <?php foreach($hits as $hit): ?>
-                <div class="col-md-3 product-left">
+                <div class="col-md-3 product-left product-item">
                     <div class="product-main simpleCart_shelfItem">
                         <a href="/product/<?= $hit->alias; ?>" class="mask"><img class="img-responsive zoom-img" src="/images/<?= $hit->img; ?>" alt="" /></a>
                         <div class="product-bottom">
@@ -69,11 +69,11 @@
                                 <?php endif; ?>
                             </h4>
                         </div>
-                        <div class="srch">
-                            <?php if($hit->old_price && $hit->old_price > $hit->price): ?>
-                            <span>-<?= ceil((1 - $hit->price / $hit->old_price) * 100) ; ?>%</span>
-                            <?php endif; ?>
-                        </div>
+                        <?php if($hit->old_price && $hit->old_price > $hit->price): ?>
+                            <div class="srch">
+                                <span>-<?= ceil((1 - $hit->price / $hit->old_price) * 100) ; ?>%</span>
+                            </div>
+                        <?php endif; ?>
                     </div>
                 </div>
                 <?php endforeach; ?>

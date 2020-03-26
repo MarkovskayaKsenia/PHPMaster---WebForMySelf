@@ -539,3 +539,37 @@
 ==============
 [2020-03-25 19:55:55] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Search\index.php | Строка: 45 
 ==============
+[2020-03-26 12:02:15] Текст ошибки: Контроллер не найден: app\controllers\CategoryController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-03-26 12:02:15] Текст ошибки: Контроллер не найден: app\controllers\CategoryController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-03-26 12:08:33] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Category/view.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-03-26 12:11:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-26 12:50:28] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Category/view.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-03-26 12:50:29] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Category/view.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-03-26 12:50:30] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Category/view.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-03-26 12:50:33] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Category/view.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-03-26 12:50:44] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/Category/view.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-03-26 14:01:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-26 14:02:01] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-26 14:02:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-26 14:03:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-26 14:06:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-26 14:09:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-26 14:32:03] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-26 14:32:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
