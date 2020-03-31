@@ -1,0 +1,10 @@
+[2020-03-30 12:23:55] Текст ошибки: Контроллер не найден: app\controllers\UserController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-03-31 08:15:49] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-03-31 08:16:17] Текст ошибки: Class 'app\controllers\User' not found | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\UserController.php | Строка: 12 
+==============
+[2020-03-31 08:19:28] Текст ошибки: Class 'app\controllers\User' not found | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\UserController.php | Строка: 12 
+==============
+[2020-03-31 14:26:59] Текст ошибки: syntax error, unexpected 'Validator' (T_STRING) | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\Model.php | Строка: 33 
+==============
