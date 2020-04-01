@@ -14,24 +14,40 @@ class UserController extends AppController
             $user = new User();
             $data = $_POST;
             $user->load($data);
-            if (!$user->validate($data)) {
+
+            if (!$user->validate($data) || !$user->checkUnique()) {
                 $user->getErrors();
-                redirect();
+                $_SESSION['form_data'] = $data;
             } else {
-                $_SESSION['success'] = 'OK';
-                redirect();
+                $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+                $id = $user->save('user');
+                if ($id) {
+                    $_SESSION['success'] = 'Пользователь зарегестрирован';
+                    $user->login();
+                } else {
+                    $_SESSION['error'] = 'Ошибка записи пользователя';
+                }
             }
+            redirect();
         }
         $this->setMeta('Регистрация');
     }
 
     public function loginAction()
     {
-
+        if (!empty($_POST)) {
+            $user = new User();
+            ($user->login()) ? $_SESSION['success'] = 'Вы успешно авторизованы': $_SESSION['error'] = 'Логин/пароль введены неверно';
+            redirect();
+        }
+        $this->setMeta('Вход');
     }
 
     public function logoutAction()
     {
-
+        if(isset($_SESSION['user'])) {
+            unset($_SESSION['user']);
+        }
+        redirect();
     }
 }

@@ -55,4 +55,14 @@ abstract class Model
          $errors .= '</ul>';
          $_SESSION['error'] = $errors;
     }
+
+    public function save($table)
+    {
+        $bean = \R::dispense($table);
+        foreach ($this->attributes as $key => $value) {
+            $bean->$key = $value;
+        }
+
+        return \R::store($bean);
+    }
 }

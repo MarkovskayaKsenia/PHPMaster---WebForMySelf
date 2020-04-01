@@ -216,6 +216,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
 <script src="/js/jquery-1.11.0.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
+<script src="/js/validator.js"></script>
 <script src="/js/typeahead.bundle.js"></script>
 <script src="/js/jquery.easydropdown.js"></script>
 <script src="/js/jquery.flexslider.js"></script>
