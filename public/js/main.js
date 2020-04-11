@@ -1,14 +1,14 @@
-$('#currency').change(function(){
+$('#currency').change(function () {
     window.location = '/currency/change?curr=' + $(this).val();
 });
 
-$('.available select').change(function() {
+$('.available select').change(function () {
     var modId = $(this).val(),
         color = $(this).find('option').filter(':selected').data('title'),
         price = $(this).find('option').filter(':selected').data('price'),
         basePrice = $('#base-price').data('base');
 
-    if(price) {
+    if (price) {
         $('#base-price').text(symbolLeft + price + symbolRight);
     } else {
         $('#base-price').text(symbolLeft + basePrice + symbolRight);
@@ -16,7 +16,7 @@ $('.available select').change(function() {
 });
 
 /*Cart*/
-$('body').on('click', '.add-to-cart-link', function(e) {
+$('body').on('click', '.add-to-cart-link', function (e) {
     e.preventDefault();
     var id = $(this).data('id'),
         qty = $('.quantity input').val() ? $('.quantity input').val() : 1,
@@ -26,25 +26,25 @@ $('body').on('click', '.add-to-cart-link', function(e) {
         url: '/cart/add/',
         data: {id: id, qty: qty, modification: modification},
         type: 'GET',
-        success: function(res){
+        success: function (res) {
             showCart(res);
         },
-        error: function(){
+        error: function () {
             alert('Ошибка, попробуйте позже!');
         }
     })
 });
 
-$('#cart .modal-body').on('click', '.del-item', function() {
+$('#cart .modal-body').on('click', '.del-item', function () {
     var id = $(this).data('id');
     $.ajax({
         url: '/cart/delete',
         data: {id: id},
         type: 'GET',
-        success: function(res) {
+        success: function (res) {
             showCart(res);
         },
-        error: function() {
+        error: function () {
             alert("Error!");
         }
     });
@@ -58,7 +58,7 @@ function showCart(cart) {
     }
     $('#cart .modal-body').html(cart);
     $('#cart').modal();
-    if($('.cart-sum').text()) {
+    if ($('.cart-sum').text()) {
         $('.simpleCart_total').html($('#cart .cart-sum').text());
     } else {
         $('.simpleCart_total').text('Empty Cart');
@@ -69,10 +69,10 @@ function getCart() {
     $.ajax({
         url: '/cart/show/',
         type: 'GET',
-        success: function(res){
+        success: function (res) {
             showCart(res);
         },
-        error: function(){
+        error: function () {
             alert('Ошибка, попробуйте позже!');
         }
     })
@@ -82,10 +82,10 @@ $('#cart .modal-footer').on('click', '.btn-clear', function () {
     $.ajax({
         url: '/cart/clear/',
         type: 'GET',
-        success: function(res){
+        success: function (res) {
             showCart(res);
         },
-        error: function(){
+        error: function () {
             alert('Ошибка, попробуйте позже!');
         }
     });
@@ -112,9 +112,45 @@ $('#typeahead').typeahead({
     source: products
 });
 
-$('#typeahead').bind('typeahead:select', function(ev, suggestion) {
+$('#typeahead').bind('typeahead:select', function (ev, suggestion) {
     window.location = path + '/search/?s=' + encodeURIComponent(suggestion.title);
-} );
+});
+
+/*Filters*/
+$('body').on('change', '.w_sidebar input', function () {
+var checked = $('.w_sidebar input:checked'),
+    data = '';
+checked.each(function() {
+    data += $(this).val() + ',';
+});
+    if (data) {
+        $.ajax({
+            url: location.href,
+            data: {filter: data},
+            type: 'GET',
+            beforeSend: function() {
+                $('.preloader').fadeIn(300, function() {
+                    $('.product-one').hide();
+                });
+            },
+            success: function(res) {
+                $('.preloader').delay(500).fadeOut('slow', function() {
+                    $('.product-one').html(res).fadeIn();
+                    var url = location.search.replace(/filter(.+?)(&|$)/g, '');
+                    var newUrl = location.pathname + url + (location.search ? "&" : "?") + "filter=" + data;
+                    newUrl = newUrl.replace('&&', '&');
+                    newUrl = newUrl.replace('?&', '?');
+                    history.pushState({}, '', newUrl );
+                });
+            },
+            error: function() {
+                alert('Ошибка!');
+            }
+        });
+    } else {
+        window.location = location.pathname;
+    }
+});
 
 
 

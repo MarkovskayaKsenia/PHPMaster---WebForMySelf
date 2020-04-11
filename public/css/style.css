@@ -1046,7 +1046,7 @@ a.mask {
 	line-height: 27px;
 	color: #555555;
 	cursor: pointer;
-	text-transform: capitalize;
+
 	font-weight: normal;
 	margin-top: 0;
 }
@@ -3101,8 +3101,10 @@ ul.tag-men {
 	padding: 0;
 }
 
+
 /*cart*/
-#cart img{
+#cart img,
+.cart table img {
 	max-height: 50px;
 }
 
@@ -3265,3 +3267,13 @@ form .has-error .form-control {
 	right: 10px;
 	top: 25px;
 }
+
+.del-item {
+	cursor: pointer;
+}
+
+.form-group textarea {
+	width: 90%;
+}
+
+

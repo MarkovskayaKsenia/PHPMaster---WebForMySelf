@@ -20,8 +20,8 @@ class UserController extends AppController
                 $_SESSION['form_data'] = $data;
             } else {
                 $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
-                $id = $user->save('user');
-                if ($id) {
+                $user_id = $user->save('user');
+                if ($user_id) {
                     $_SESSION['success'] = 'Пользователь зарегестрирован';
                     $user->login();
                 } else {

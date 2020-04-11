@@ -14,3 +14,122 @@
 ==============
 [2020-04-01 14:45:00] Текст ошибки: syntax error, unexpected '<', expecting end of file | Файл: C:\OSPanel\domains\ishop2.loc\app\views\User\login.php | Строка: 38 
 ==============
+[2020-04-03 12:13:54] Текст ошибки: Метод viewAction в контроллере app\controllers\CartController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-04-03 12:24:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-03 12:24:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-03 12:24:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-03 12:33:12] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-03 14:32:46] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-03 14:35:44] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop2.order' doesn't exist | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-03 14:37:01] Текст ошибки: syntax error, unexpected ':', expecting ')' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Cart\view.php | Строка: 88 
+==============
+[2020-04-03 14:37:04] Текст ошибки: syntax error, unexpected ':', expecting ')' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Cart\view.php | Строка: 88 
+==============
+[2020-04-03 14:37:20] Текст ошибки: syntax error, unexpected ':', expecting ')' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\Cart\view.php | Строка: 88 
+==============
+[2020-04-03 14:40:02] Текст ошибки: Invalid type: sale_order | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77 
+==============
+[2020-04-03 14:43:31] Текст ошибки: Invalid type: sale_order | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77 
+==============
+[2020-04-03 14:45:58] Текст ошибки: Invalid type: sale_order | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77 
+==============
+[2020-04-03 14:47:36] Текст ошибки: Invalid type: sale_order | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77 
+==============
+[2020-04-03 14:54:36] Текст ошибки: Invalid type: sale_order | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77 
+==============
+[2020-04-03 14:55:56] Текст ошибки: Invalid type: sale_order | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77 
+==============
+[2020-04-03 14:58:09] Текст ошибки: Invalid type: sale_order | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77 
+==============
+[2020-04-03 15:00:49] Текст ошибки: Invalid type: sale_order | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77 
+==============
+[2020-04-04 10:47:05] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-04 10:48:17] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-04 10:48:51] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-04 10:52:45] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-04 11:05:49] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-04 11:06:36] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-04 11:18:33] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-04 12:23:34] Текст ошибки: Call to undefined function app\models\rtirm() | Файл: C:\OSPanel\domains\ishop2.loc\app\models\Order.php | Строка: 31 
+==============
+[2020-04-04 12:44:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'G-SHOCK GMW-B5000D-1E, 289.52),(31, 2, 1, Casio G-SHOCK GST-B200-1AER, 246.4),(3' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-04 12:53:25] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'G-SHOCK GMW-B5000D-1E, 289.52)' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-05 14:36:42] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR) | Файл: C:\OSPanel\domains\ishop2.loc\app\models\Order.php | Строка: 58 
+==============
+[2020-04-05 18:00:03] Текст ошибки: Connection could not be established with host smtp.mailtrap.io :stream_socket_client(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number | Файл: C:\OSPanel\domains\ishop2.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\StreamBuffer.php | Строка: 269 
+==============
+[2020-04-05 18:02:53] Текст ошибки: Метод indexAction в контроллере app\controllers\CartController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-04-05 18:05:21] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:54:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:55:07] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:56:15] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:56:43] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:57:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:58:25] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:58:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:59:08] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:59:12] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:59:13] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:59:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:59:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:59:27] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 18:59:29] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 19:00:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-06 19:00:20] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-04-11 10:00:17] Текст ошибки: Call to undefined method ishop\Cache::getProperties() | Файл: C:\OSPanel\domains\ishop2.loc\app\widgets\filter\Filter.php | Строка: 80 
+==============
+[2020-04-11 10:00:37] Текст ошибки: Call to undefined method ishop\Cache::getPropeties() | Файл: C:\OSPanel\domains\ishop2.loc\app\widgets\filter\Filter.php | Строка: 80 
+==============
+[2020-04-11 10:01:06] Текст ошибки: Call to undefined method ishop\Cache::getPropeties() | Файл: C:\OSPanel\domains\ishop2.loc\app\widgets\filter\Filter.php | Строка: 80 
+==============
+[2020-04-11 10:01:10] Текст ошибки: Call to undefined method ishop\Cache::getPropeties() | Файл: C:\OSPanel\domains\ishop2.loc\app\widgets\filter\Filter.php | Строка: 80 
+==============
+[2020-04-11 10:01:57] Текст ошибки: Call to undefined method ishop\Cache::getPropeties() | Файл: C:\OSPanel\domains\ishop2.loc\app\widgets\filter\Filter.php | Строка: 79 
+==============
+[2020-04-11 10:23:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-11 10:24:59] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-11 10:25:35] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-11 10:25:37] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-11 10:25:43] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-04-11 10:25:54] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============

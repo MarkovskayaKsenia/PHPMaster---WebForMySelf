@@ -95,8 +95,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <input type="text" class="typeahead" id="typeahead" name="s" placeholder="Search">
                         <input type="submit" value="">
                     </form>
-                    <!--<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-                    <input type="submit" value="">-->
                 </div>
             </div>
             <div class="clearfix"> </div>
@@ -206,6 +204,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
     </div>
 </div>
+<div class="preloader">
+    <img src="/images/ring.svg" alt="">
+</div>
 <?php $currency = \ishop\App::$app->getProperty('currency'); ?>
 <script>
     var path = '<?= PATH; ?>';
@@ -276,12 +277,5 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </script>
 <script src="/js/main.js"></script>
 
-<?php
-$logs = \R::getDatabaseAdapter()
-    ->getDatabase()
-    ->getLogger();
-
-debug( $logs->grep( 'SELECT' ) );
-?>
 </body>
 </html>
