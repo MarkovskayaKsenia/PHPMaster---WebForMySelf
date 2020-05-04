@@ -65,4 +65,12 @@ abstract class Model
 
         return \R::store($bean);
     }
+
+    public function update($table, $id) {
+        $bean = \R::load($table, $id);
+        foreach ($this->attributes as $key => $value) {
+            $bean->$key = $value;
+        }
+        return \R::store($bean);
+    }
 }

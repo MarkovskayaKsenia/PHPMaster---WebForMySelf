@@ -1,8 +1,11 @@
 <?php
 
-function debug($data)
+function debug($data, $die = false)
 {
     echo '<pre>' . print_r($data, true) . '</pre>';
+    if ($die) {
+        die();
+    }
 }
 
 function redirect($url = false)

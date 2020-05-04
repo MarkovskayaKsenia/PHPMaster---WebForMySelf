@@ -8,6 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
     <?= $meta; ?>
+    <link href = "/images/star.png" rel="shortcut icon" type="image/png"/>
     <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/megamenu/css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -276,6 +277,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     });
 </script>
 <script src="/js/main.js"></script>
-
+<?php
+$logs = \R::getDatabaseAdapter()
+    ->getDatabase()
+    ->getLogger();
+debug($logs->grep("SELECT"));
+?>
 </body>
 </html>
