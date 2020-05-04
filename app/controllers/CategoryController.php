@@ -40,7 +40,6 @@ class CategoryController extends AppController
             $filter = Filter::getFilter();
             if ($filter) {
                 $count_groups = Filter::getCountGroups($filter);
-                debug($count_groups);
                 $sql_part = "AND id IN (SELECT product_id FROM attribute_product WHERE attr_id IN($filter) GROUP BY product_id HAVING COUNT(product_id) = $count_groups)";
             }
 
