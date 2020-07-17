@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0efa72a1-5207-4ea0-bc8d-4b3140842b6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/admin/CacheController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin/Cache/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/admin/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/admin/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/admin/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/Product/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/Product/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/User/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/User/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/User/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/adminlte/ajax_uploader/jquery.dm-uploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/filter/admin_filter_tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dropzone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/OrderController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/OrderController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/admin/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Product/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Product/view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/admin/Order/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/Order/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/widgets/filter/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/filter/Filter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/params.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/params.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminlte/bower_components/ckeditor/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/adminlte/bower_components/ckeditor/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminlte/ishop2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/adminlte/ishop2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/adminlte/ishop2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/adminlte/ishop2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +41,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="ishop2.loc" />
@@ -57,23 +93,25 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../redbeanphp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/adminlte/ajax_uploader" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\ishop2.loc\public\images" />
-      <recent name="C:\OSPanel\domains\ishop2.loc\public\validator" />
-      <recent name="C:\OSPanel\domains\ishop2.loc\public\fonts" />
-      <recent name="C:\OSPanel\domains\ishop2.loc\public\js" />
-      <recent name="C:\OSPanel\domains\ishop2.loc\public\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\ishop2.loc\public\adminlte\dropzone" />
+      <recent name="C:\OSPanel\domains\ishop2.loc\public\images" />
+      <recent name="C:\OSPanel\domains\ishop2.loc\public\adminlte\bower_components" />
       <recent name="C:\OSPanel\domains\ishop2.loc\public\errors\images" />
       <recent name="C:\OSPanel\domains\ishop2.loc\public" />
-      <recent name="C:\OSPanel\domains\ishop2.loc\public\errors" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\ishop2.loc\public\adminlte\ajax_uploader" />
+      <recent name="C:\OSPanel\domains\ishop2.loc\public\css" />
+      <recent name="C:\OSPanel\domains\ishop2.loc\public\js" />
+      <recent name="C:\OSPanel\domains\ishop2.loc\public\images" />
+      <recent name="C:\OSPanel\domains\ishop2.loc\public\validator" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -112,7 +150,19 @@
       <workItem from="1587360386530" duration="40335000" />
       <workItem from="1588313795750" duration="11253000" />
       <workItem from="1588494635339" duration="7325000" />
-      <workItem from="1588591807854" duration="8922000" />
+      <workItem from="1588591807854" duration="10286000" />
+      <workItem from="1589030162354" duration="3958000" />
+      <workItem from="1589104755187" duration="7187000" />
+      <workItem from="1589193945278" duration="7855000" />
+      <workItem from="1589708430699" duration="6009000" />
+      <workItem from="1590313401511" duration="13983000" />
+      <workItem from="1590922263491" duration="9159000" />
+      <workItem from="1591531824200" duration="5593000" />
+      <workItem from="1591623406132" duration="11398000" />
+      <workItem from="1592216425032" duration="558000" />
+      <workItem from="1592738729880" duration="2955000" />
+      <workItem from="1592743763512" duration="823000" />
+      <workItem from="1593089516292" duration="2918000" />
     </task>
     <servers />
   </component>

@@ -30,7 +30,6 @@ class OrderController extends AppController
         JOIN `order_product` ON `order`.`id` = `order_product`.`order_id`
         GROUP BY `order`.`id` ORDER BY `order`.`status`, `order`.`id` LIMIT $start, $perpage");
 
-
         $this->setMeta('Список заказов');
         $this->set(compact('orders', 'pagination', 'count'));
     }

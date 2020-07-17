@@ -5,7 +5,7 @@
         Список заказов
     </h1>
     <ol class="breadcrumb">
-        <li><a href="<?=ADMIN; ?>"><i class="fa fa-dashboard"></i>Главная</a></li>
+        <li><a href="<?= ADMIN; ?>"><i class="fa fa-dashboard"></i>Главная</a></li>
         <li class="active">Список заказов</li>
     </ol>
 </section>
@@ -32,7 +32,7 @@
                            </thead>
                            <tbody>
                            <?php foreach($orders as $order): ?>
-                           <?php $class = ($order['status'] === 'Исполнен') ? 'success' : ''; ?>
+                           <?php $class = ($order['status'] === 'Завершен') ? 'success' : ''; ?>
                            <tr class="<?= $class; ?>">
                                <td><?= $order['id']; ?></td>
                                <td><?= $order['name']; ?></td>

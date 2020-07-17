@@ -23,7 +23,10 @@ class UserController extends AppController
                 $user_id = $user->save('user');
                 if ($user_id) {
                     $_SESSION['success'] = 'Пользователь зарегестрирован';
-                    $user->login();
+                    if (!isset($_SESSION['user'])) {
+                        $user->login();
+                        redirect('/');
+                    }
                 } else {
                     $_SESSION['error'] = 'Ошибка записи пользователя';
                 }

@@ -563,3 +563,167 @@ error:1408F10B:SSL routines:ssl3_get_record:wrong version number | Файл: C:\
 ==============
 [2020-05-04 15:05:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\AppController.php | Строка: 31 
 ==============
+[2020-05-09 16:19:33] Текст ошибки: Метод indexAction в контроллере app\controllers\admin\UserController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-05-10 15:15:33] Текст ошибки: syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) or const (T_CONST) | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\UserController.php | Строка: 66 
+==============
+[2020-05-10 15:18:18] Текст ошибки: syntax error, unexpected 'public' (T_PUBLIC) | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\UserController.php | Строка: 69 
+==============
+[2020-05-10 15:20:24] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\User/edit.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-05-10 15:21:38] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-05-11 13:48:53] Текст ошибки: Контроллер не найден: app\controllers\admin\ProductController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-05-11 13:48:53] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-05-11 14:14:51] Текст ошибки: Class 'app\controllers\admin\Pagination' not found | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\ProductController.php | Строка: 14 
+==============
+[2020-05-11 15:00:05] Текст ошибки: syntax error, unexpected '}', expecting ';' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\add.php | Строка: 91 
+==============
+[2020-05-11 15:00:29] Текст ошибки: syntax error, unexpected '}', expecting ';' | Файл: C:\OSPanel\domains\ishop2.loc\app\views\admin\Product\add.php | Строка: 91 
+==============
+[2020-05-11 15:50:02] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'brand_id' doesn't have a default value | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-05-17 15:50:18] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-05-17 15:51:42] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-05-17 15:51:59] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'hit' at row 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-05-17 15:59:44] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'hit' at row 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-05-17 16:10:42] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-05-17 16:11:23] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'alias' | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-05-24 13:05:34] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-05-24 13:05:42] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-05-24 13:08:36] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-05-24 13:10:14] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-05-24 13:11:37] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-05-24 13:26:57] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-05-24 13:46:03] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-05-24 14:02:40] Текст ошибки: Метод viewAction в контроллере app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-05-24 14:02:59] Текст ошибки: Страница product/zhenskie-chasy-fioletovye не найдена | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 17 
+==============
+[2020-05-24 14:03:27] Текст ошибки: Страница product/gmw-b5000d-1e не найдена | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 17 
+==============
+[2020-05-24 14:03:58] Текст ошибки: Страница product/zhenskie-chasy-fioletovye не найдена | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 17 
+==============
+[2020-05-24 14:05:06] Текст ошибки: Страница product/gmw-b5000d-1e не найдена | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 17 
+==============
+[2020-05-24 20:07:27] Текст ошибки: syntax error, unexpected '}', expecting end of file | Файл: C:\OSPanel\domains\ishop2.loc\app\models\admin\Product.php | Строка: 77 
+==============
+[2020-05-25 18:43:11] Текст ошибки: syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\ProductController.php | Строка: 53 
+==============
+[2020-05-25 18:45:12] Текст ошибки: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\admin\ProductController.php | Строка: 57 
+==============
+[2020-05-25 19:09:32] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-05-25 19:10:12] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-05-25 19:11:02] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: C:\OSPanel\domains\ishop2.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194 
+==============
+[2020-05-31 14:50:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-05-31 15:23:41] Текст ошибки: Страница product/related-product не найдена | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 17 
+==============
+[2020-05-31 15:24:13] Текст ошибки: Страница product/related-product не найдена | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 17 
+==============
+[2020-05-31 15:25:49] Текст ошибки: Страница product/related-product не найдена | Файл: C:\OSPanel\domains\ishop2.loc\app\controllers\ProductController.php | Строка: 17 
+==============
+[2020-05-31 15:32:21] Текст ошибки: Метод relatedProductAction в контроллере app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-05-31 15:32:30] Текст ошибки: Метод relatedProductAction в контроллере app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-05-31 15:32:32] Текст ошибки: Метод relatedProductAction в контроллере app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-05-31 15:32:43] Текст ошибки: Метод relatedProductAction в контроллере app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-05-31 15:32:53] Текст ошибки: Метод relatedProductAction в контроллере app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-05-31 15:33:12] Текст ошибки: Метод relatedProductAction в контроллере app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-05-31 15:35:44] Текст ошибки: Метод relatedProductAction в контроллере app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-06-08 16:27:20] Текст ошибки: Метод addImageAction в контроллере app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-06-08 16:40:44] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:41:58] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:42:14] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:42:55] Текст ошибки: Метод addImageAction в контроллере app\controllers\admin\ProductController не найден | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 42 
+==============
+[2020-06-08 16:44:10] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:49:52] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:51:34] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:51:45] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:54:27] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:55:43] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:56:03] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:56:40] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 16:59:23] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-08 17:13:05] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop2.loc/app/views/admin\Product/add-image.php | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\base\View.php | Строка: 41 
+==============
+[2020-06-10 11:42:22] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:44:29] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:44:52] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:45:53] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:46:08] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:46:56] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:50:21] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:52:06] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:53:33] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:55:42] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:56:16] Текст ошибки: Контроллер не найден: app\controllers\ImagesController | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 37 
+==============
+[2020-06-10 11:57:55] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-06-21 15:09:59] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-06-25 16:05:44] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-06-25 16:05:46] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-06-25 16:14:16] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-06-25 16:14:17] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-06-25 16:14:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-06-25 16:14:23] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-06-25 16:14:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
+[2020-06-25 16:14:24] Текст ошибки: Страница не найдена | Файл: C:\OSPanel\domains\ishop2.loc\vendor\ishop\core\Router.php | Строка: 32 
+==============
